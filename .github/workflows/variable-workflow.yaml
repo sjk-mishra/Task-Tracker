@@ -1,5 +1,7 @@
 name: Varible scope
 on:
+  push:
+    branches: master
   workflow_dispatch:
 env:
   cloud: google-cloud
