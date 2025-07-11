@@ -1,6 +1,6 @@
 name: Varible scope
 on:
-  workflow_dispatch
+  workflow_dispatch:
 env:
   cloud: google-cloud
 
