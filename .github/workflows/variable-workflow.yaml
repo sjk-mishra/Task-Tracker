@@ -12,6 +12,6 @@ jobs:
       
     steps: 
     - name: Greetings
-      run: echo $Greetings $First_Name on $cloud
+      run: echo $Greeting $First_Name on $cloud
       env:
-        Fist_Nmae: Shubhi
+        Fist_Name: Shubhi
