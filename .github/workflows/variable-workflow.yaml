@@ -1,0 +1,17 @@
+name: Varible scope
+on:
+  workflow_dispatch
+env:
+  cloud: google-cloud
+
+jobs:
+  greetings-job:
+    runs-on: ubuntu-latest
+    env:
+      Greeting: Hello
+      
+    steps: 
+    - name: Greetings
+      run: echo $Greetings $First_Name on $cloud
+      env:
+        Fist_Nmae: Shubhi
